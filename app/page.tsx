@@ -1,18 +1,18 @@
-import React from 'react'
-import Navbar from './Navbar'
-import Link from 'next/link'
+import React from "react";
+import Navbar from "./AkshayComps/Navbar";
+import Link from "next/link";
+import MainChunk from "./VaishnaviComps/MainChunk";
 
 const page = () => {
   return (
     <>
       <Navbar />
-      <div>
-        Hello World
-      </div>
-      <Link href="/Account">Click me</Link>
+      <MainChunk />
+      <button className="btn btn-accent">
+        <Link href="/Account">Click me</Link>
+      </button>
     </>
+  );
+};
 
-  )
-}
-
-export default page
+export default page;

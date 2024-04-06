@@ -3,6 +3,9 @@
 @tailwind utilities;
 
 body {
+  margin-top: 25px;
+  margin-right: 50px;
+  margin-left: 50px;
   color: rgb(var(--foreground-rgb));
   background: linear-gradient(
       to bottom,
